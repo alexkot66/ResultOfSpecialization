@@ -1,0 +1,29 @@
+  584  pwd
+  585  ls
+  586  mkdir kontrrab
+  587  cd kontrrab/
+  588  cat > Pets.txt
+  589  cat > PackAnimals.txt
+  590  ls
+  591  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+  592  cat HumanFriends.txt 
+  593  mv HumanFriends.txt "Human Friends.txt"
+  594  ll
+  595  ls
+  596  mkdir NewAnimals
+  597  ls
+  598  mv 'Human Friends.txt' NewAnimals/
+  599  ll
+  600  cd NewAnimals/
+  601  ll
+  602  sudo apt update
+  603  sudo apt install mysql-server
+  604  sudo systemctl start mysql.service
+  605  systemctl status mysql.service
+  606  sudo wget https://download.virtualbox.org/virtualbox/7.1.2/virtualbox-7.1_7.1.2-164945~Ubuntu~noble_amd64.deb
+  607  sudo dpkg -i virtualbox-7.1_7.1.2-164945~Ubuntu~noble_amd64.deb
+  608  sudo apt -f install
+  609  vbox
+  610  sudo dpkg -r virtualbox-7.1
+  611  sudo apt autoremove
+  612  history > KoshkarovAlexandr_08102024_Specializaciya.txt
